@@ -1,4 +1,4 @@
-fetch("data/Product.xml")
+fetch("data/product.xml")
     .then(response => response.text())
     .then (data => {
         const parser = new DOMParser();
